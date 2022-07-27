@@ -2,14 +2,14 @@
 
 ## Screenshots
 
-![preview img](/preview.jpg)
+<!-- ![preview img](/preview.jpg) -->
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/abdulaziz-m5u/course-LMS.git your-project
+  git clone git@github.com:Emmanuel-Odero/Elimu-Hub.git
 ```
 
 Go to the project directory
