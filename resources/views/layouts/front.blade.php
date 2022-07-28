@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {{-- Favicon --}}
+    <link rel='icon' href="{{ asset('frontend/assets/images/elimu_LOGO-3v.png') }}" type='image/x-icon'/>
+
     
     <!-- ===== BOX ICONS ===== -->
     <link
