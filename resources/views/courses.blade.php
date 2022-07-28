@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="products section container" id="course">
-        <h2 class="section-title">My Course</h2>
+        <h2 class="section-title">Courses</h2>
 
         <div class="featured-container grid">
             @forelse($purchased_courses as $purchased_course)
@@ -35,7 +35,7 @@
                 </a>
               </article>
             @empty
-                <h2 style="text-align: center;grid-column: 1/5">You haven't purchased course yet</h2>
+                <h2 style="text-align: center;grid-column: 1/5">You have not Subscribed to any course yet</h2>
             @endforelse
             </div>
       </section>

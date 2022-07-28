@@ -16,13 +16,13 @@
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="{{ asset('frontend/assets/style.css') }}" />
 
-    <title>Responsive Watches website</title>
+    <title>Elimu Hub</title>
   </head>
   <body>
-    <header class="header" id="header">
+    <header style="background-color: #a25439" class="header" id="header">
       <div class="nav container">
         <a href="{{ route('home') }}" class="nav-logo">
-        <img width="55" src="{{ asset('frontend/assets/images/elimu-portrait-logo.png') }}" alt="logo">
+        <img width="125" src="{{ asset('frontend/assets/images/elimu-portrait-logo.png') }}" alt="logo">
        
         {{-- <i class='bx bx-compass'></i>  --}}
         </a>
@@ -139,7 +139,7 @@
           <h3 class="footer-title">Our Information</h3>
           <ul class="footer-list">
             <li>123456789</li>
-            <li>Lombok, INDONESIA</li>
+            <li>Ngongroad, Kenya</li>
           </ul>
         </div>
 

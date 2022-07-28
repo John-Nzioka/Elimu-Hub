@@ -136,8 +136,8 @@ button {
 
 body.dark-theme {
     --first-color: #dc6a0d6b;
-    --button-color: #dc6a0dea;
-    --button-color-alt: #dc6a0d84;
+    --button-color: #dc6648;
+    --button-color-alt: #dc6648;
     --title-color: hsl(0, 0%, 95%);
     --text-color: hsl(0, 0%, 75%);
     --body-color: hsl(0, 0%, 12%);
@@ -500,7 +500,7 @@ body.dark-theme {
 
 .story-square {
     height: 200px;
-    background-color: var(--first-color);
+    background-color: rgb(172, 11, 16);;
 }
 
 .story-img {
@@ -774,7 +774,7 @@ body.dark-theme {
 
 /* newsletter style */
 .newsletter-bg {
-    background-color: #dc6a0d80;
+    background-color: #c99d61;
     padding: 3rem 1.5rem;
     text-align: center;
     row-gap: 2.5rem;
@@ -810,6 +810,8 @@ body.dark-theme {
     row-gap: 2rem;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 3rem;
+    justify-content: space-between;
+
 }
 
 .footer-title {
